@@ -9,7 +9,7 @@ const Navbar = () => {
 		setNav(!nav);
 	};
 	return (
-		<div>
+		<div className='fixed left-0 top-0 z-50 bg-white  w-full'>
 			<header className='flex items-center justify-between px-[30px] md:px-[60px] lg:px[80px] xl:px-[120px] py-[30px] '>
 				<div className='flex items-center'>
 					<h1 className='text-[28px] lg:text-[32px] font-bold text-[#FF0000] font-[Roboto]'>
